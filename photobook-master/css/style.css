@@ -1,0 +1,499 @@
+
+
+
+.row{
+    margin-bottom: 0 !important;
+}
+
+/*** start navbar ***/
+nav{
+    background-color: #e11a27;
+    color: #000 ;
+    height: auto !important;
+}
+
+nav .material-icons{
+    display: inline-block !important
+}
+
+nav a{
+    color: #000;
+    font-size: 28px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+nav .bt:hover{
+    cursor: pointer;
+    color: #ffd200;
+}
+
+nav .phone{
+    background-color: #ffd200;
+    padding: 8px;
+    border-radius: 15px
+}
+
+/*** end navbar ***/
+
+/*** start header ***/
+
+header{
+    background: url('../image/1_6zyd35MIasFBybAyRvQEeQ.jpeg') no-repeat center center;
+    background-size: cover;
+    min-height: 573px;
+    color: #fff;
+}
+
+header .nav-side{
+    position: fixed;
+    background-color: #e11a27;
+    left: -600px;
+}
+
+header .nav-side ul{
+    margin: 6px 0;
+}
+
+header .nav-side li{
+    background-color: #6d6d6d;
+    border: 1px solid;
+    border-color: #444 transparent #444 transparent; 
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+}
+
+header .nav-side li:hover{
+    background-color: #ffd200
+}
+
+header .nav-side .active{
+    background-color: #ffd200;
+}
+
+header .nav-side a{
+    padding: 10px 120px 10px 20px;
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+
+header .content{
+    padding-top: 80px
+}
+
+header h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 40px
+}
+
+header h3 span{
+    font-size: 70px;  
+}
+
+header p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold
+}
+
+header .content a{
+    color: #fff;
+    border: 1px solid #e2e2e2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+}
+
+header .content a:hover{
+    background-color: #ffd200;
+    border-color: #ffd200;
+    color: #000;
+}
+
+/*** end header ***
+
+/*** start serves ***/
+
+.serves{
+    padding-top: 80px;
+    padding-bottom: 10px
+}
+
+.serves i{
+    color: #000;
+    font-size: 50px;
+    border: 2px solid #ffd200;
+    border-radius: 50%;
+    padding: 30px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    position: relative
+}
+
+.serves i:not(:last-of-type):after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 3px dashed #ffd200;
+    width: 100px;
+}
+
+.serves i:hover{
+    background-color: #ffd200;
+    color: #fff;
+}
+
+.serves p{
+    font-size: 21px;
+    padding-top: 20px;
+    font-weight: bold
+}
+
+/*** end serves ***/
+
+/*** start advantage ***/
+
+.advantage{
+    background-color: #f3f0e7;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.advantage h4{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 200
+}
+
+.advantage img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.advantage h5{
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 1.4
+}
+
+.advantage a{
+    color: #fff;
+    font-weight: 200;
+    background: #e11a27;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 40px 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+}
+
+.advantage a:hover{
+    background-color: #ffd200;
+    color: #000;
+}
+
+/*** end advantage ***/
+
+/*** start solutions ***/
+
+.solutions{
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.solutions h4{
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-bottom: 30px
+}
+
+.solutions h4 span{
+    font-size: 50px
+}
+
+.solutions .solution{
+    background-color: #ffd200;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px
+}
+
+.solutions .seler{
+    position: relative
+}
+
+.solutions .seler:before{
+    position: absolute;
+    content: "bestseller";
+    display: block;
+    border-width: 0 20px 0 20px;
+    border-style: solid;
+    border-color: transparent transparent #ffd200 transparent;
+    top: -20px;
+    background-color: #ffd200;
+    left: 30%;
+    padding: 5px;
+}
+
+.solutions .solution h5{
+    padding: 40px 0;
+    text-transform: uppercase
+}
+
+.solutions .solution h5 span{
+    font-size: 35px
+}
+
+.solutions .solution .content{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    margin: 0 10px;
+    height: 300px;
+    position: relative
+}
+
+.solutions .solution .content p{
+    padding: 0
+}
+
+.solutions .solution .content p i{
+    font-size: 15px;
+    border: 1px solid #ffd200;
+    border-radius: 50%
+}
+
+.solutions .solution .content div{
+    font-size: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+}
+
+.solutions .solution .content div i{
+    font-size: 40px;
+}
+
+.solutions .solution p{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/*** end solutions ***/
+
+/*** start Testimonials ***/
+
+.testimonials{
+    background-color: #f7f0e6
+}
+
+.testimonials h4{
+    margin: 0;
+    padding: 70px 0;
+    text-transform: uppercase;
+    font-weight: 200
+}
+
+.testimonials h4 span{
+    font-size: 50px;
+    font-weight: 300
+}
+
+.testimonials img{
+    width: 100%
+}
+
+.testimonials .person{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonials .info{
+    padding-top: 15px;
+}
+
+.testimonials .info h6{
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.testimonials a{
+    color: #000;
+}
+
+.testimonials .more i{
+    font-size: 20px;
+    position: absolute; 
+}
+
+.testimonials .btns{
+    border: 1px solid #000;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 15px 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 10px
+}
+
+.testimonials .btns:hover{
+    background-color: #ffd200;
+    border:1px solid #ffd200;
+}
+
+/*** end Testimonials ***/
+
+/*** start info-card ***/
+
+.info-card{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.info-card h5{
+    background-color: #ffd200;
+    margin: 0;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #fff;
+}
+
+.info-card .info{
+    background-color: #f7f0e6;
+    height: 230px;
+}
+
+.info-card .info p{
+    margin: 0;
+    padding: 15px;
+    line-height: 1.7;
+    font-weight: bold;
+}
+
+.info-card ul:not(.browser-default){
+    padding: 0 35px !important;
+    list-style-type: circle !important
+}
+
+.info-card ul:not(.browser-default)>li{
+    list-style-type: circle !important
+}
+
+.info-card .info .free{
+    color: red;
+    font-size: 18px;
+    padding: 0 15px
+}
+
+.info-card .btns{
+    background-color: #e11a27;
+    border:1px solid #e11a27;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 80px 0 40px 0;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 10px
+}
+
+.info-card .btns:hover{
+    background-color: #ffd200;
+    border:1px solid #ffd200;
+    color: #000;
+}
+
+/*** end info-card ***/
+
+/*** start footer ***/
+
+footer{
+    background-color: #ffd200;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+footer .footer-item{
+    border-top: 2px solid #000;
+}
+
+footer .footer-item li{
+    padding: 5px 0
+}
+
+footer .footer-item a{
+    color: #333;
+}
+
+footer .footer-item a:hover{
+    color: #888
+}
+
+footer .footer-item .icon{
+    padding-top: 20px;
+}
+
+footer .footer-item .icon a{
+    font-size: 25px;
+}
+
+footer .footer-item .icon a:not(:first-of-type){
+    padding-left: 10px
+}
+
+footer .footer-item .logo{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+footer .footer-item .logo p{
+    margin: 0;
+    font-size: 12px;
+    padding-bottom: 5px
+}
+
+footer p{
+    font-size: 12px;
+    padding-top: 20px
+}
+/*** end footer ***/
